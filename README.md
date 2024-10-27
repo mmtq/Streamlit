@@ -26,6 +26,7 @@ This practice project includes skills and tools like:
 - **Stock Price Visualizer** - Track and analyze stock prices.
 - **Bio Informatics - DNA** -
 - **Basketball Data Analysis** - Analyze NBA player statistics.
+- **NFL Football Data Analysis**
 ## Resources
 
 - [Streamlit Documentation](https://docs.streamlit.io/)
