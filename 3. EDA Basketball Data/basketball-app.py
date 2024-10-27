@@ -27,6 +27,7 @@ def load_data(year):
     raw = raw.fillna(0)
     raw = raw.drop(raw[raw.Age == 0].index)
     player_stats = raw.drop(['Rk'], axis=1)
+    player_stats = player_stats.drop('Awards', axis=1)
     return player_stats
 
 player_stats = load_data(selected_year)
